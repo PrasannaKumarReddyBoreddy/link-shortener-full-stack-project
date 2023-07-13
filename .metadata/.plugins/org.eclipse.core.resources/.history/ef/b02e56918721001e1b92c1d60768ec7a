@@ -1,0 +1,22 @@
+package com.example.Prasanna.linkshortener.model;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "short_urls")
+@Getter
+public class ShortUrl {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "original_url")
+    private String originalUrl;
+
+    @Column(name = "short_url")
+    private String shortUrl;
+
+    @Column(name = "expiry_time")
+    private long expiryTime;
+
+}
