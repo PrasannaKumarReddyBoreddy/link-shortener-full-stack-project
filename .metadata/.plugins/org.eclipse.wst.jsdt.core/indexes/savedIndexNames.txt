@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+C:\Users\lenovo\Desktop\link-shortener-full-stack\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2624320185.index
-456643703.index
-1400751753.index
-133804756.index
-3778315915.index
-4172897225.index
